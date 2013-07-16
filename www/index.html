@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+  <div data-role="page" id="mainpage">
+
+    <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+
+    <div data-role="header" data-theme="b">
+      <a data-iconpos="notext" data-role="button" data-icon="home" title="Home">Home</a>
+      <h1>Doa Muslim</h1>
+      <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+    </div>
+      <div data-role="content">
+          <p>Aplikasi Doa untuk rekan Muslim, dibuat oleh @<a href="http://twitter.com/7langit">7Langit</a> [<a href="http://7langit.com/doamuslim.html">doamuslim</a>]</p>
+          <div data-role="collapsible-set" data-theme="b">
+              <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross">
+                  <h3>Doa Harian</h3>
+                  <ul data-role="listview" data-filter="true">
+                      <li><a href="#pagebahagia">Bahagia Dunia Akhirat</a></li>
+                      <li><a href="#pagebukapuasa">Buka Puasa</a></li>
+                      <li><a href="#pagesblmmakan">Sebelum Makan</a></li>
+                      <li><a href="#pagessdhmakan">Setelah Makan</a></li>
+                      <li><a href="#pagesusahtidur">Susah Tidur</a></li>
+                      <li><a href="#pagemusibah">Tertimpa Musibah</a></li>
+                      <li><a href="#pageorangtua">Untuk Orang Tua</a></li>
+                  </ul>
+              </div>
+              <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                  <h3>Doa Sholat</h3>
+                  <ul data-role="listview" data-filter="true">
+                      <li><a href="#pagesholatwajib">Niat Sholat Wajib</a></li>
+                      <li><a href="#pagestlhsholat">Setelah Sholat</a></li>
+                  </ul>
+              </div>
+              <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                  <h3>Doa Haji/Umroh</h3>
+                  <ul data-role="listview" data-filter="true">
+                      <li><a href="#pagemasukmekah">Masuk Mekah</a></li>
+                  </ul>
+              </div>
+          </div>
+          <p>this open source project code available <a href="http://oo.or.id">here.</a></p>
+      </div>
+
+  </div>
+    
+    <div data-role="page" id="pagebahagia">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Bahagia Dunia Akhirat</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p>
+                      <div id="imgcontainer">
+                        <img style="max-height:100%; max-width:100%;" src="img/doaharian/bahagia_d_a.png" />
+                      </div>
+                    </p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Robbana atina fiddunyaa hasanah, wa fil-akhiroti hasa-nah, wa qinaa 'adzaaban-naar</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat dan peliharalah kami dari siksa neraka". (QS. Al-Baqarah [2]: 201)</p>
+                    <p>“Doa ini telah mengumpulkan semua kebaikan di dunia dan menjauhkan dari semua keburukan di dunia. Karena kebaikan di dunia itu mencakup segala hal yang diinginkan di dunia, berupa kesehatan, rumah yang luas, istri yang baik (atau suami yang baik, pent), rizki yang luas, ilmu yang bermanfaat, amal yang shalih, kendaraan yang nyaman, pujian yang baik dan lain-lainnya yang telah disebutkan dalam ungkapan para ulama tafsir. Tidak ada kontradiksi antara pendapat-pendapat mereka tersebut, karena semuanya termasuk dalam cakupan makna kebaikan di dunia.” (Tafsir Ibnu Katsir, 1/558)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagebukapuasa">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Buka Puasa</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p>
+                    <div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doaharian/buka_puasa.png" />
+                    </div>
+                    </p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Allahumma laka shumtu wa bika amantu wa 'ala rizqika afthortu dzhabadh dhoma-u wab tallatil ‘uruqu wa tsa-batal ajru insya Allah</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Ya Allah untuk-Mu aku berpuasa dan kepada-Mu aku beriman dan atas rizki-Mu aku berbuka. Telah sirna rasa dahaga, tenggorokan pun basah, dan tetapkanlah pahala kepadaku jika Allah menghendaki”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div data-role="page" id="pagesblmmakan">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Sebelum Makan</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p>
+                    <div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doaharian/sblm_makan.png" />
+                    </div>
+                    </p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Allaahumma baarik lanaa fiimaa razaqtanaa wa qinna'adzaabannar.<br/>Bismillahirrahmanirrahim.</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>Ya Allah berkatilah apa yang telah Engkau rezekikan kepada kami dan jauhkanlah kami dari azab neraka. Dengan Nama Allah Yang Maha Pemurah lagi Maha Mengasihani.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagessdhmakan">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Setelah Makan</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p>
+                    <div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doaharian/ssdh_makan.png" />
+                    </div>
+                    </p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Alhamdulillahilladzi ath'amani hadza wa razaqanihi min ghairi haulin minni wa la quwwah</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>“Segala puji bagi Allah yang memberi makan ini kepadaku dan yang memberi rezeki kepadaku tanpa daya dan kekuatanku”. (HR. Penyusun kitab Sunan, kecuali An-Nasai, Tirmidzi)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagesusahtidur">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Susah Tidur</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p>
+                    <div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doaharian/susah_tidur.png" />
+                    </div>
+                    </p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Allahumma ghaaratin nujuumu wa hada'atil 'uyuunu wa anta hayyun qayyuumul laa ta'khudzuka sinatuw wa laa nauum, yaa hayyu yaa qayyuumu ahdi'lailii, wa anim 'ainii.</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Ya <b>Allah</b>, bintang-bintang tenggelam dan semua mata tertidur lelap, sedangkan <b>Engkau</b> Maha hidup abadi lagi terus-menerus mengurus makhluk-<b>Mu</b>, <b>Engkau</b> tidak pernah terkena kantuk dan tidak pula tidur.<br/>Wahai (<b>Allah</b>) Yang Maha hidup abadi lagi terus-menerus mengurus makhluk, tenangkanlah malamku dan pejamkanlah mataku."<br/>(HR. Ibnu Sunni)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagemusibah">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Tertimpa Musibah</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p><div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doaharian/musibah.png" /></div></p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Innaa Lillaahi Wainnaa Ilaihi Raaji'uun, Allaahumma'jurnii Fii Musiibatii Waahliflii Khairan Minha</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>“Kita milik Allah semata dan sesungguhnya hanya kepada-Nya semata kita kembali. (QS. Al-Baqarah [2]: 156). Ya Allah berilah aku pahala dalam musibah yang menimpaku, dan berilah aku ganti yang lebih baik daripada musibah yang telah menimpa.” (HR. Muslim)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+  <div data-role="page" id="pageorangtua">
+    <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+      
+    <div data-role="header" data-theme="b">
+          <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+          <h1>Doa Untuk Kedua Orang Tua</h1>
+          <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+            <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                <h3>Arabic</h3>
+                <p><div id="imgcontainer">
+                    <img  style="max-height:100%; max-width:100%;" src="img/doaharian/ortu1.png" /></div></p>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>Transliteration</h3>
+                <p>Rabbighfir lii waliwaa lidayya warhamhumaa kamaa rabbayaanii shaghiiraa</p>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                <h3>Translation</h3>
+                <p>"Ya Tuhanku, ampunilah aku dan kedua orang tuaku, dan sayangilah kedua orang tuaku sebagaimana mereka telah memelihara/mendidikku sewaktu aku kecil."</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+            <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                <h3>Arabic</h3>
+                <p><div id="imgcontainer">
+                    <img  style="max-height:100%; max-width:100%;" src="img/doaharian/ortu2.png" /></div></p>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>Transliteration</h3>
+                <p>Robbighfirlii waliwaalidayya</p>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                <h3>Translation</h3>
+                <p>"Ya Allah ampunilah dosaku dan dosa kedua orang tuaku." (QS. Nuh 71:28)</p>
+            </div>
+        </div>
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+            <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                <h3>Arabic</h3>
+                <p><div id="imgcontainer">
+                    <img  style="max-height:100%; max-width:100%;" src="img/doaharian/ortu3.png" /></div></p>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>Transliteration</h3>
+                <p>Robbir_hamhumaa kamaa robbayaanii shoghiiroo</p>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                <h3>Translation</h3>
+                <p>"serta kasihilah mereka berdua seperti mereka mengasihiku sewaktu kecil." (QS. Al-Isro' 17:24)</p>
+            </div>
+        </div>
+    </div>
+  </div>
+    
+    <div data-role="page" id="pagesholatwajib">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Niat Sholat Wajib</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Sholat Maghrib: Arabic</h3>
+                    <p><div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doasholat/sholat_maghrib.png" /></div></p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Usholli fardhal maghribi tsalatsa raka'aatim mustaqbilall qiblati adaa-an lillaahi ta'aala</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Aku berniat melakukan shalat fardu maghrib 3 rakaat, sambil menghadap qiblat, karena Allah ta'ala."</p>
+                </div>
+            </div>
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Sholat Jum'at: Arabic</h3>
+                    <p><div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doasholat/sholat_jumat.png" /></div></p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Usholli fardhal jum'ati rak'ataini mustaqbilall qiblati adaa-an ma`muuman lillaahi ta'aala</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Aku berniat melakukan shalat jum'at 2 rakaat, sambil menghadap qiblat, menjadi mamum, karena Allah ta'ala."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagestlhsholat">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Setelah Sholat Wajib</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p><div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doasholat/stlh_sholat1.png" /></div></p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Astagfirullahal’adzim Alladzi laa ilaaha illa hual hayyul qayyum watubu ilaih</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Saya mohon ampun kepada Allah Yang Maha Besar, tidak ada Tuhan melainkan Dia, yang senantiasa hidup lagi mengurus segala sesuatu dengan sendiri-Nya, dan saya bertobat kepada-Nya."</p>
+                </div>
+            </div>
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p><div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doasholat/stlh_sholat2.png" /></div></p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Laa Ilaha illallah wahdahu laa syarikalah lahul mulku walhul hamdu, yuhyi wa yumitu wahua ‘ala kulli syaiin qadir</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Tidak ada Tuhan yang wajib disembah kecuali Allah Yang Maha Esa. Tidak ada sekutu bagi-Nya. Dialah yang mempunyai kekuasaan dan kerjaan yang memerintahkan, dan bagi-Nya segala puji-pujian yang menghidupkan dan mematikan, dan Dia berkuasa atas segala sesuatu."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="pagemasukmekah">
+        <div data-role="panel" id="panel" data-position="right" data-theme="b" data-display="push"></div>
+        
+        <div data-role="header" data-theme="b">
+            <a href="#mainpage" data-role="back" data-icon="back" title="Back">Back</a>
+            <h1>Doa Masuk Mekah</h1>
+            <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+                    <h3>Arabic</h3>
+                    <p><div id="imgcontainer">
+                        <img  style="max-height:100%; max-width:100%;" src="img/doahajiumroh/masuk_mekah.png" /></div></p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                    <h3>Transliteration</h3>
+                    <p>Allahumma haadza haramuka wa amnuka faharrimlahmi wadamii wabasyarii ‘alannar, wa aminnii min ‘adzabika yauma tab’atsu ‘ibaadaka waj’alnii min auliyaa ika wa ahli thaa’atik.</p>
+                </div>
+                <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+                    <h3>Translation</h3>
+                    <p>"Ya Allah, kota ini adalah Tanah Haram-Mu dan tempat yang aman-Mu, maka hindarkanlah daging, darah, rambut dan kulitku dari neraka. Dan selamatkanlah diriku dari siksa-Mu pada hari Engkau mengbangkitkan kembali hamba-Mu, dan jadikanlah aku termasuk orang-orang yang selalu dekat dan taat kepada-Mu"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+  <div id="highlight"> </div>
+</body>
+</html>
